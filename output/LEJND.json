@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "name": "LEJND",
+    "description": "Sleep, Eat, Junk Food, No Meds, Dishes"
+  },
+  "scores": {
+    "diet": 35,
+    "blood_sugar": 40,
+    "medication": 51,
+    "env_hygiene": 87,
+    "independence": 52,
+    "overall": 53
+  },
+  "readings": {
+    "current_bg": 199,
+    "bg_trend": "rising",
+    "last_meal_time": "10:30 AM",
+    "last_med_time": "Yesterday, 8:00 PM",
+    "stove_status": "off"
+  },
+  "todo": [
+    {
+      "task": "Make a Cup of Coffee",
+      "done": false,
+      "time": "9:40 AM"
+    },
+    {
+      "task": "Eat breakfast",
+      "done": true,
+      "time": "10:30 AM"
+    },
+    {
+      "task": "Take Medication",
+      "done": false,
+      "time": "10:45 AM"
+    },
+    {
+      "task": "Do the Dishes",
+      "done": true,
+      "time": "10:50 AM"
+    },
+    {
+      "task": "Check Blood Sugar",
+      "done": false,
+      "time": "11:30 AM"
+    },
+    {
+      "task": "Call Family",
+      "done": false,
+      "time": "2:00 PM"
+    }
+  ],
+  "history": [
+    {
+      "day": "Mon",
+      "diet": 35,
+      "blood_sugar": 33,
+      "medication": 53,
+      "hygiene": 91,
+      "independence": 56
+    },
+    {
+      "day": "Tue",
+      "diet": 38,
+      "blood_sugar": 36,
+      "medication": 52,
+      "hygiene": 88,
+      "independence": 54
+    },
+    {
+      "day": "Wed",
+      "diet": 37,
+      "blood_sugar": 42,
+      "medication": 47,
+      "hygiene": 92,
+      "independence": 53
+    },
+    {
+      "day": "Thu",
+      "diet": 34,
+      "blood_sugar": 39,
+      "medication": 50,
+      "hygiene": 85,
+      "independence": 58
+    },
+    {
+      "day": "Fri",
+      "diet": 31,
+      "blood_sugar": 43,
+      "medication": 51,
+      "hygiene": 83,
+      "independence": 57
+    },
+    {
+      "day": "Sat",
+      "diet": 35,
+      "blood_sugar": 42,
+      "medication": 49,
+      "hygiene": 87,
+      "independence": 56
+    },
+    {
+      "day": "Sun",
+      "diet": 36,
+      "blood_sugar": 37,
+      "medication": 52,
+      "hygiene": 88,
+      "independence": 56
+    }
+  ],
+  "alerts": {
+    "patient": [
+      {
+        "type": "blue",
+        "label": "Easy Morning",
+        "detail": "You slept well last night - let's start the day!"
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Don't forget to take your medication, Johnny"
+      }
+    ],
+    "family": [
+      {
+        "type": "blue",
+        "label": "Well-Rested",
+        "detail": "Johnny got extra sleep last night."
+      },
+      {
+        "type": "blue",
+        "label": "Breakfast",
+        "detail": "Johnny ate but didn't cook - a grocery trip could be helpful."
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Johnny forgot to take his medication today, want to check in?"
+      }
+    ],
+    "care": [
+      {
+        "type": "orange",
+        "label": "Breakfast",
+        "detail": "Johnny hasn't cooked recently - ask him about his diet."
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Johnny displayed reduced medication adherence, reflected in his blood glucose."
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "time": "9:00 AM",
+      "label": "Woke up",
+      "icon": "\u2600\ufe0f",
+      "type": "wake"
+    },
+    {
+      "time": "9:15 AM",
+      "label": "Blood sugar: 103 mg/dL \u2014 in range",
+      "icon": "\ud83e\ude78",
+      "type": "bg_ok"
+    },
+    {
+      "time": "10:05 AM",
+      "label": "Pantry opened",
+      "icon": "\ud83d\udeaa",
+      "type": "pantry"
+    },
+    {
+      "time": "10:50 AM",
+      "label": "Sink activity (dishes)",
+      "icon": "\ud83e\udee7",
+      "type": "dishes"
+    },
+    {
+      "time": "11:00 AM",
+      "label": "Blood sugar: 208 mg/dL \u2014 in range",
+      "icon": "\ud83e\ude78",
+      "type": "bg_ok"
+    }
+  ]
+}

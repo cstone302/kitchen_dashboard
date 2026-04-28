@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "name": "LEKOMD",
+    "description": "Sleep, Eat, Cook, Turn On, Meds, Dishes"
+  },
+  "scores": {
+    "diet": 99,
+    "blood_sugar": 83,
+    "medication": 95,
+    "env_hygiene": 87,
+    "independence": 49,
+    "overall": 83
+  },
+  "readings": {
+    "current_bg": 105,
+    "bg_trend": "stable",
+    "last_meal_time": "10:30 AM",
+    "last_med_time": "10:45 AM",
+    "stove_status": "on"
+  },
+  "todo": [
+    {
+      "task": "Make a Cup of Coffee",
+      "done": false,
+      "time": "9:40 AM"
+    },
+    {
+      "task": "Eat breakfast",
+      "done": true,
+      "time": "10:30 AM"
+    },
+    {
+      "task": "Take Medication",
+      "done": true,
+      "time": "10:45 AM"
+    },
+    {
+      "task": "Do the Dishes",
+      "done": true,
+      "time": "10:50 AM"
+    },
+    {
+      "task": "Check Blood Sugar",
+      "done": false,
+      "time": "11:30 AM"
+    },
+    {
+      "task": "Call Family",
+      "done": false,
+      "time": "2:00 PM"
+    }
+  ],
+  "history": [
+    {
+      "day": "Mon",
+      "diet": 95,
+      "blood_sugar": 78,
+      "medication": 98,
+      "hygiene": 91,
+      "independence": 51
+    },
+    {
+      "day": "Tue",
+      "diet": 98,
+      "blood_sugar": 81,
+      "medication": 97,
+      "hygiene": 88,
+      "independence": 49
+    },
+    {
+      "day": "Wed",
+      "diet": 97,
+      "blood_sugar": 87,
+      "medication": 92,
+      "hygiene": 92,
+      "independence": 48
+    },
+    {
+      "day": "Thu",
+      "diet": 94,
+      "blood_sugar": 84,
+      "medication": 95,
+      "hygiene": 85,
+      "independence": 53
+    },
+    {
+      "day": "Fri",
+      "diet": 91,
+      "blood_sugar": 88,
+      "medication": 96,
+      "hygiene": 83,
+      "independence": 52
+    },
+    {
+      "day": "Sat",
+      "diet": 95,
+      "blood_sugar": 87,
+      "medication": 94,
+      "hygiene": 87,
+      "independence": 51
+    },
+    {
+      "day": "Sun",
+      "diet": 96,
+      "blood_sugar": 82,
+      "medication": 97,
+      "hygiene": 88,
+      "independence": 51
+    }
+  ],
+  "alerts": {
+    "patient": [
+      {
+        "type": "blue",
+        "label": "Easy Morning",
+        "detail": "You slept well last night - let's start the day!"
+      },
+      {
+        "type": "green",
+        "label": "Breakfast",
+        "detail": "Nicely done, chef Johnny! How was breakfast?"
+      },
+      {
+        "type": "red",
+        "label": "Stove",
+        "detail": "The stove has been left on, don't forget to turn it off."
+      }
+    ],
+    "family": [
+      {
+        "type": "blue",
+        "label": "Well-Rested",
+        "detail": "Johnny got extra sleep last night."
+      },
+      {
+        "type": "red",
+        "label": "Stove",
+        "detail": "Johnny has left the stove on for 20 minutes and not responded."
+      }
+    ],
+    "care": [
+      {
+        "type": "red",
+        "label": "Stove Awareness",
+        "detail": "Johnny failed to turn the stove off after cooking."
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "time": "9:00 AM",
+      "label": "Woke up",
+      "icon": "\u2600\ufe0f",
+      "type": "wake"
+    },
+    {
+      "time": "9:15 AM",
+      "label": "Blood sugar: 103 mg/dL \u2014 in range",
+      "icon": "\ud83e\ude78",
+      "type": "bg_ok"
+    },
+    {
+      "time": "10:00 AM",
+      "label": "Stove on",
+      "icon": "\ud83d\udd25",
+      "type": "stove_on"
+    },
+    {
+      "time": "10:05 AM",
+      "label": "Fridge opened",
+      "icon": "\ud83e\uddca",
+      "type": "fridge"
+    },
+    {
+      "time": "10:45 AM",
+      "label": "Medication taken",
+      "icon": "\ud83d\udc8a",
+      "type": "medication"
+    },
+    {
+      "time": "10:50 AM",
+      "label": "Sink activity (dishes)",
+      "icon": "\ud83e\udee7",
+      "type": "dishes"
+    },
+    {
+      "time": "11:00 AM",
+      "label": "Blood sugar: 115 mg/dL \u2014 in range",
+      "icon": "\ud83e\ude78",
+      "type": "bg_ok"
+    }
+  ]
+}

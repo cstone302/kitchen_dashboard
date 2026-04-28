@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "name": "LEKFNT",
+    "description": "Sleep, Eat, Cook, Turn Off, No Meds, TV"
+  },
+  "scores": {
+    "diet": 99,
+    "blood_sugar": 64,
+    "medication": 43,
+    "env_hygiene": 51,
+    "independence": 40,
+    "overall": 59
+  },
+  "readings": {
+    "current_bg": 161,
+    "bg_trend": "stable",
+    "last_meal_time": "10:30 AM",
+    "last_med_time": "Yesterday, 8:00 PM",
+    "stove_status": "off"
+  },
+  "todo": [
+    {
+      "task": "Make a Cup of Coffee",
+      "done": false,
+      "time": "9:40 AM"
+    },
+    {
+      "task": "Eat breakfast",
+      "done": true,
+      "time": "10:30 AM"
+    },
+    {
+      "task": "Take Medication",
+      "done": false,
+      "time": "10:45 AM"
+    },
+    {
+      "task": "Do the Dishes",
+      "done": false,
+      "time": "10:50 AM"
+    },
+    {
+      "task": "Check Blood Sugar",
+      "done": false,
+      "time": "11:30 AM"
+    },
+    {
+      "task": "Call Family",
+      "done": false,
+      "time": "2:00 PM"
+    }
+  ],
+  "history": [
+    {
+      "day": "Mon",
+      "diet": 95,
+      "blood_sugar": 58,
+      "medication": 48,
+      "hygiene": 61,
+      "independence": 46
+    },
+    {
+      "day": "Tue",
+      "diet": 98,
+      "blood_sugar": 61,
+      "medication": 47,
+      "hygiene": 58,
+      "independence": 44
+    },
+    {
+      "day": "Wed",
+      "diet": 97,
+      "blood_sugar": 67,
+      "medication": 42,
+      "hygiene": 62,
+      "independence": 43
+    },
+    {
+      "day": "Thu",
+      "diet": 94,
+      "blood_sugar": 64,
+      "medication": 45,
+      "hygiene": 55,
+      "independence": 48
+    },
+    {
+      "day": "Fri",
+      "diet": 91,
+      "blood_sugar": 68,
+      "medication": 46,
+      "hygiene": 53,
+      "independence": 47
+    },
+    {
+      "day": "Sat",
+      "diet": 95,
+      "blood_sugar": 67,
+      "medication": 44,
+      "hygiene": 57,
+      "independence": 46
+    },
+    {
+      "day": "Sun",
+      "diet": 96,
+      "blood_sugar": 62,
+      "medication": 47,
+      "hygiene": 58,
+      "independence": 46
+    }
+  ],
+  "alerts": {
+    "patient": [
+      {
+        "type": "blue",
+        "label": "Easy Morning",
+        "detail": "You slept well last night - let's start the day!"
+      },
+      {
+        "type": "green",
+        "label": "Breakfast",
+        "detail": "Nicely done, chef Johnny! How was breakfast?"
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Don't forget to take your medication, Johnny"
+      }
+    ],
+    "family": [
+      {
+        "type": "blue",
+        "label": "Well-Rested",
+        "detail": "Johnny got extra sleep last night."
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Johnny forgot to take his medication today, want to check in?"
+      }
+    ],
+    "care": [
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Johnny displayed reduced medication adherence, reflected in his blood glucose."
+      },
+      {
+        "type": "orange",
+        "label": "Clutter Warning",
+        "detail": "Johnny didn't do the dishes after cooking - environmental cluttering is possible."
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "time": "9:00 AM",
+      "label": "Woke up",
+      "icon": "\u2600\ufe0f",
+      "type": "wake"
+    },
+    {
+      "time": "9:15 AM",
+      "label": "Blood sugar: 103 mg/dL \u2014 in range",
+      "icon": "\ud83e\ude78",
+      "type": "bg_ok"
+    },
+    {
+      "time": "10:00 AM",
+      "label": "Stove on",
+      "icon": "\ud83d\udd25",
+      "type": "stove_on"
+    },
+    {
+      "time": "10:05 AM",
+      "label": "Fridge opened",
+      "icon": "\ud83e\uddca",
+      "type": "fridge"
+    },
+    {
+      "time": "10:20 AM",
+      "label": "Stove off (20 min)",
+      "icon": "\u2713",
+      "type": "stove_off"
+    },
+    {
+      "time": "11:00 AM",
+      "label": "Blood sugar: 171 mg/dL \u2014 in range",
+      "icon": "\ud83e\ude78",
+      "type": "bg_ok"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "name": "SUEKONT",
+    "description": "Start, No Coffee, Eat, Cook, Turn On, No Meds, TV"
+  },
+  "scores": {
+    "diet": 97,
+    "blood_sugar": 74,
+    "medication": 48,
+    "env_hygiene": 61,
+    "independence": 21,
+    "overall": 60
+  },
+  "readings": {
+    "current_bg": 191,
+    "bg_trend": "rising",
+    "last_meal_time": "9:00 AM",
+    "last_med_time": "Yesterday, 8:00 PM",
+    "stove_status": "on"
+  },
+  "todo": [
+    {
+      "task": "Make a Cup of Coffee",
+      "done": false,
+      "time": "8:10 AM"
+    },
+    {
+      "task": "Eat breakfast",
+      "done": true,
+      "time": "9:00 AM"
+    },
+    {
+      "task": "Take Medication",
+      "done": false,
+      "time": "9:15 AM"
+    },
+    {
+      "task": "Do the Dishes",
+      "done": false,
+      "time": "9:20 AM"
+    },
+    {
+      "task": "Check Blood Sugar",
+      "done": false,
+      "time": "10:00 AM"
+    },
+    {
+      "task": "Call Family",
+      "done": false,
+      "time": "12:30 PM"
+    }
+  ],
+  "history": [
+    {
+      "day": "Mon",
+      "diet": 95,
+      "blood_sugar": 78,
+      "medication": 48,
+      "hygiene": 61,
+      "independence": 26
+    },
+    {
+      "day": "Tue",
+      "diet": 98,
+      "blood_sugar": 80,
+      "medication": 47,
+      "hygiene": 68,
+      "independence": 24
+    },
+    {
+      "day": "Wed",
+      "diet": 97,
+      "blood_sugar": 77,
+      "medication": 42,
+      "hygiene": 62,
+      "independence": 23
+    },
+    {
+      "day": "Thu",
+      "diet": 94,
+      "blood_sugar": 74,
+      "medication": 45,
+      "hygiene": 65,
+      "independence": 28
+    },
+    {
+      "day": "Fri",
+      "diet": 91,
+      "blood_sugar": 78,
+      "medication": 46,
+      "hygiene": 63,
+      "independence": 27
+    },
+    {
+      "day": "Sat",
+      "diet": 95,
+      "blood_sugar": 77,
+      "medication": 44,
+      "hygiene": 67,
+      "independence": 26
+    },
+    {
+      "day": "Sun",
+      "diet": 96,
+      "blood_sugar": 72,
+      "medication": 47,
+      "hygiene": 68,
+      "independence": 26
+    }
+  ],
+  "alerts": {
+    "patient": [
+      {
+        "type": "green",
+        "label": "Rise and Shine!",
+        "detail": "Good morning Johnny! Ready to start the day?"
+      },
+      {
+        "type": "green",
+        "label": "Breakfast",
+        "detail": "Nicely done, chef Johnny! How was breakfast?"
+      },
+      {
+        "type": "red",
+        "label": "Stove",
+        "detail": "The stove has been left on, don't forget to turn it off."
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Don't forget to take your medication, Johnny"
+      }
+    ],
+    "family": [
+      {
+        "type": "blue",
+        "label": "Rise and Shine!",
+        "detail": "Johnny is awake. Want to say good morning?"
+      },
+      {
+        "type": "red",
+        "label": "Stove",
+        "detail": "Johnny has left the stove on for 20 minutes and not responded."
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Johnny forgot to take his medication today, want to check in?"
+      }
+    ],
+    "care": [
+      {
+        "type": "red",
+        "label": "Stove Awareness",
+        "detail": "Johnny failed to turn the stove off after cooking."
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Johnny displayed reduced medication adherence, reflected in his blood glucose."
+      },
+      {
+        "type": "orange",
+        "label": "Clutter Warning",
+        "detail": "Johnny didn't do the dishes after cooking - environmental cluttering is possible."
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "time": "7:30 AM",
+      "label": "Woke up",
+      "icon": "\u2600\ufe0f",
+      "type": "wake"
+    },
+    {
+      "time": "7:45 AM",
+      "label": "Blood sugar: 103 mg/dL \u2014 in range",
+      "icon": "\ud83e\ude78",
+      "type": "bg_ok"
+    },
+    {
+      "time": "8:30 AM",
+      "label": "Stove on",
+      "icon": "\ud83d\udd25",
+      "type": "stove_on"
+    },
+    {
+      "time": "8:35 AM",
+      "label": "Fridge opened",
+      "icon": "\ud83e\uddca",
+      "type": "fridge"
+    },
+    {
+      "time": "9:30 AM",
+      "label": "Blood sugar: 200 mg/dL \u2014 in range",
+      "icon": "\ud83e\ude78",
+      "type": "bg_ok"
+    }
+  ]
+}

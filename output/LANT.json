@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "name": "LANT",
+    "description": "Sleep, No Eat, No Meds, TV"
+  },
+  "scores": {
+    "diet": 58,
+    "blood_sugar": 31,
+    "medication": 47,
+    "env_hygiene": 41,
+    "independence": 15,
+    "overall": 38
+  },
+  "readings": {
+    "current_bg": 82,
+    "bg_trend": "stable",
+    "last_meal_time": "Yesterday, 6:30 PM",
+    "last_med_time": "Yesterday, 8:00 PM",
+    "stove_status": "off"
+  },
+  "todo": [
+    {
+      "task": "Make a Cup of Coffee",
+      "done": false,
+      "time": "9:40 AM"
+    },
+    {
+      "task": "Eat breakfast",
+      "done": false,
+      "time": "10:30 AM"
+    },
+    {
+      "task": "Take Medication",
+      "done": false,
+      "time": "10:45 AM"
+    },
+    {
+      "task": "Do the Dishes",
+      "done": false,
+      "time": "10:50 AM"
+    },
+    {
+      "task": "Check Blood Sugar",
+      "done": false,
+      "time": "11:30 AM"
+    },
+    {
+      "task": "Call Family",
+      "done": false,
+      "time": "2:00 PM"
+    }
+  ],
+  "history": [
+    {
+      "day": "Mon",
+      "diet": 55,
+      "blood_sugar": 28,
+      "medication": 48,
+      "hygiene": 46,
+      "independence": 11
+    },
+    {
+      "day": "Tue",
+      "diet": 58,
+      "blood_sugar": 31,
+      "medication": 47,
+      "hygiene": 43,
+      "independence": 9
+    },
+    {
+      "day": "Wed",
+      "diet": 57,
+      "blood_sugar": 37,
+      "medication": 42,
+      "hygiene": 47,
+      "independence": 7
+    },
+    {
+      "day": "Thu",
+      "diet": 54,
+      "blood_sugar": 34,
+      "medication": 45,
+      "hygiene": 40,
+      "independence": 13
+    },
+    {
+      "day": "Fri",
+      "diet": 51,
+      "blood_sugar": 38,
+      "medication": 46,
+      "hygiene": 38,
+      "independence": 12
+    },
+    {
+      "day": "Sat",
+      "diet": 55,
+      "blood_sugar": 37,
+      "medication": 44,
+      "hygiene": 42,
+      "independence": 11
+    },
+    {
+      "day": "Sun",
+      "diet": 56,
+      "blood_sugar": 32,
+      "medication": 47,
+      "hygiene": 43,
+      "independence": 11
+    }
+  ],
+  "alerts": {
+    "patient": [
+      {
+        "type": "blue",
+        "label": "Easy Morning",
+        "detail": "You slept well last night - let's start the day!"
+      },
+      {
+        "type": "orange",
+        "label": "Breakfast",
+        "detail": "It looks like you haven't made breakfast yet. Make sure to eat at some point."
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Don't forget to take your medication, Johnny"
+      }
+    ],
+    "family": [
+      {
+        "type": "blue",
+        "label": "Well-Rested",
+        "detail": "Johnny got extra sleep last night."
+      },
+      {
+        "type": "orange",
+        "label": "Breakfast",
+        "detail": "Johnny has not made breakfast, would you like to call to check in?"
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Johnny forgot to take his medication today, want to check in?"
+      }
+    ],
+    "care": [
+      {
+        "type": "orange",
+        "label": "Inconsistent Diet",
+        "detail": "Johnny has skipped eating breakfast, creating volatile BG readings."
+      },
+      {
+        "type": "orange",
+        "label": "Medication",
+        "detail": "Johnny displayed reduced medication adherence, reflected in his blood glucose."
+      },
+      {
+        "type": "orange",
+        "label": "Clutter Warning",
+        "detail": "Johnny didn't do the dishes after cooking - environmental cluttering is possible."
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "time": "9:00 AM",
+      "label": "Woke up",
+      "icon": "\u2600\ufe0f",
+      "type": "wake"
+    },
+    {
+      "time": "9:15 AM",
+      "label": "Blood sugar: 103 mg/dL \u2014 in range",
+      "icon": "\ud83e\ude78",
+      "type": "bg_ok"
+    },
+    {
+      "time": "11:00 AM",
+      "label": "Blood sugar: 91 mg/dL \u2014 in range",
+      "icon": "\ud83e\ude78",
+      "type": "bg_ok"
+    }
+  ]
+}
